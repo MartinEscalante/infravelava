@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+*{
+    box-sizing: border-box;
+}
+.items{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 2fr 2fr 1fr 1fr 2fr
+}
+
+.box1{
+    grid-area: 1 / 1 / 2 /3 ;
+}
+
+.box2{
+    grid-column: 1/3;
+    height: 500px;
+}
+
+.box3{
+    grid-area: 3/1/4/3;
+}
+
+.box4{
+    grid-area: 3/ 1/ 4/3;
+}
+
+.box5{
+    grid-row: 4/13;
+}
+.box6{
+    grid-row: 4/13;
+}
+.box1{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo h2{
+    font-family: 'Slabo 27px', serif;
+    font-size: 35px;
+}
+
+.nav ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.nav ul li{
+    margin: 20px;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(59, 57, 57);
+    font-family: 'EB Garamond', serif;
+}
+
+.logos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+
+}
+.logos1{
+    display: flex;
+}
+
+.instagram1{
+    margin: 10px;
+}
+
+.facebook1{
+    margin: 10px;
+}
+
+
+.ig, .fb{
+    font-size: 20px;
+}
+
+.box2{
+    display: flex;
+    background: url('../imagenes/modelo2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    background-color:rgb(100,100,100);
+    background-blend-mode: soft-light;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.box2 h2{
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.box2 p{
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+    margin: 0px;
+    
+}
+.btn1{
+    padding: 20px;
+}
+.btn{
+    background-color: rgb(185, 180, 180);
+    border: 1px solid rgb(185,180,180);
+    border-radius: 5px;
+    padding: 15px 50px 15px 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.box3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    grid-row: 1fr;
+    height: 500px;
+}
+
+.box4{
+    display: grid;
+}
+
+
+
+
+
+
